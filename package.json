@@ -7,6 +7,9 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/joy": "^5.0.0-alpha.69",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
