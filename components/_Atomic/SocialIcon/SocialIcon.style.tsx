@@ -31,4 +31,10 @@ const SocialIconWrapper = styled.div`
   }
 `;
 
+export const SocialGroup = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+`;
+
 export default SocialIconWrapper;

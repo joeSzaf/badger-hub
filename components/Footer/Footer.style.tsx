@@ -42,10 +42,4 @@ export const FooterSection = styled.div`
   width: 100%;
 `;
 
-export const SocialGroup = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-`;
-
 export default FooterWrapper;

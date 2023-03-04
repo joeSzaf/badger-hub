@@ -1,13 +1,10 @@
-import FooterWrapper, {
-  FooterSection,
-  FooterSections,
-  SocialGroup,
-} from './Footer.style';
+import FooterWrapper, { FooterSection, FooterSections } from './Footer.style';
 import SocialIcon from '../_Atomic/SocialIcon/SocialIcon';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import DiscordIcon from '../../public/icons/DiscordIcon.svg';
+import { SocialGroup } from '../_Atomic/SocialIcon/SocialIcon.style';
 
 const Footer = () => {
   return (
