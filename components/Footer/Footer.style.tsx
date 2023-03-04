@@ -6,8 +6,9 @@ export const FooterWrapper = styled.footer`
   justify-content: center;
 
   .footerContent {
-    width: 1200px;
+    max-width: 1200px;
     padding: 16px;
+    flex-grow: 100;
   }
 
   .copywright {
@@ -26,6 +27,11 @@ export const FooterSections = styled.div`
     flex-direction: column-reverse;
     justify-content: flex-start;
     gap: 32px;
+
+    h1,
+    h2 {
+      margin-bottom: 0;
+    }
   }
 `;
 
