@@ -1,10 +1,11 @@
 import styled from '@emotion/styled';
 
-export const MailingListWrapper = styled.footer`
+export const MailingListWrapper = styled.section`
   background-color: #2b2b2b;
   color: white;
   display: flex;
   justify-content: center;
+  padding: 64px 0;
 
   .sectionContent {
     align-items: center;
