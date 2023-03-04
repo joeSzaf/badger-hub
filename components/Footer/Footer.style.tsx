@@ -5,7 +5,7 @@ export const FooterWrapper = styled.footer`
   display: flex;
   justify-content: center;
 
-  .footerContent {
+  .sectionContent {
     max-width: 1200px;
     padding: 16px;
     flex-grow: 100;

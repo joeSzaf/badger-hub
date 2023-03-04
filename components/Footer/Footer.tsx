@@ -12,7 +12,7 @@ import DiscordIcon from '../../public/icons/DiscordIcon.svg';
 const Footer = () => {
   return (
     <FooterWrapper>
-      <div className='footerContent'>
+      <div className='sectionContent'>
         <FooterSections>
           <FooterSection>
             <h1>Contact</h1>

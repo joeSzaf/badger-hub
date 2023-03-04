@@ -1,5 +1,7 @@
+import MailingListSection from '../../MailingListSection/MailingListSection';
+
 const LandingPage = () => {
-  return <div>Landing Page</div>;
+  return <MailingListSection></MailingListSection>;
 };
 
 export default LandingPage;
