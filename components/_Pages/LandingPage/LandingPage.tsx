@@ -1,7 +1,13 @@
+import FollowUsSection from '../../FollowUsSection/FollowUsSection';
 import MailingListSection from '../../MailingListSection/MailingListSection';
 
 const LandingPage = () => {
-  return <MailingListSection></MailingListSection>;
+  return (
+    <main>
+      <FollowUsSection />
+      <MailingListSection />
+    </main>
+  );
 };
 
 export default LandingPage;
