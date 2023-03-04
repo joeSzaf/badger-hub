@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Typography } from '@mui/material';
 import AppBar from '@mui/material/AppBar';
-import HeaderWrapper from './Header.styles';
+import HeaderWrapper from './Header.style';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
