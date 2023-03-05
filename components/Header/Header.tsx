@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Typography } from '@mui/material';
-import HeaderWrapper, { NavButton } from './Header.style';
+import HeaderWrapper, { DropdownLink, NavButton } from './Header.style';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
@@ -13,7 +13,12 @@ import Image from 'next/image';
 import BadgerHubLogo from '../../public/images/badgerHubLogo.png';
 import Link from 'next/link';
 
-const pages = ['About us', 'Games', 'Blog', 'Connect with us'];
+const pages = [
+  { name: 'About us', url: '/about' },
+  { name: 'Games', url: '/games' },
+  { name: 'Blog', url: '/blog' },
+  { name: 'Connect with us', url: '/connect' },
+];
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
@@ -105,9 +110,11 @@ const Header = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign='center'>{page}</Typography>
-                </MenuItem>
+                <Link href={page.url} style={{ textDecoration: 'none' }}>
+                  <MenuItem key={page.name} onClick={handleCloseNavMenu}>
+                    <DropdownLink>{page.name}</DropdownLink>
+                  </MenuItem>
+                </Link>
               ))}
             </Menu>
           </Box>
@@ -122,12 +129,14 @@ const Header = () => {
           >
             {pages.map((page) => (
               <NavButton
-                key={page}
+                key={page.name}
                 disableRipple
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
+                href={page.url}
+                LinkComponent={Link}
               >
-                {page}
+                {page.name}
               </NavButton>
             ))}
           </Box>

@@ -14,6 +14,13 @@ export const HeaderWrapper = styled(AppBar)`
       font-size: 32px;
       margin-left: 8px;
     }
+
+    @media screen and (max-width: 450px) {
+      .logoText {
+        font-size: 16px;
+        margin-left: 6px;
+      }
+    }
   }
 
   .logoSection {
@@ -43,6 +50,7 @@ export const HeaderWrapper = styled(AppBar)`
 
 export const NavButton = styled(Button)`
   font-weight: 700;
+
   :hover {
     background-color: #474747;
   }
@@ -50,6 +58,13 @@ export const NavButton = styled(Button)`
   :active {
     background-color: #5c5c5c;
   }
+`;
+
+export const DropdownLink = styled.h3`
+  color: #5c5c5c;
+  font-weight: 400;
+  margin: 0;
+  text-decoration: none;
 `;
 
 export default HeaderWrapper;
