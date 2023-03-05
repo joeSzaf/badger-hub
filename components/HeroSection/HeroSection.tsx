@@ -1,10 +1,9 @@
-import { Button, Paper } from '@mui/material';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import Slide from './Slide/Slide';
 import BoothImage from '../../public/images/Booth.jpg';
 import PaxImage from '../../public/images/Pax.jpg';
-import BigButton from '../_Atomic/SocialIcon/BigButton/BigButton';
+import BigButton from '../_Atomic/BigButton/BigButton';
 import { ButtonContainer } from './HeroSection.style';
 
 const HeroSection = () => {
