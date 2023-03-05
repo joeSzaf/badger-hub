@@ -5,6 +5,7 @@ export const FollowUsSectionWrapper = styled.section`
   color: 2b2b2b;
   display: flex;
   justify-content: center;
+  padding: 16px 0;
 
   .sectionContent {
     align-items: center;

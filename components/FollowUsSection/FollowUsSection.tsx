@@ -11,7 +11,7 @@ const FollowUsSection = () => {
     <FollowUsSectionWrapper>
       <div className='sectionContent'>
         <div>
-          <h2>Follow us!</h2>
+          <h2>Follow us</h2>
           <p>Connect with us. We love to hear from you!</p>
         </div>
 
