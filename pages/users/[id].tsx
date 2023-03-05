@@ -3,7 +3,6 @@ import { GetStaticProps, GetStaticPaths } from 'next';
 import { User } from '../../interfaces';
 import { sampleUserData } from '../../utils/sample-data';
 import Layout from '../../components/_Atomic/Layout/Layout';
-import ListDetail from '../../components/ListDetail';
 
 type Props = {
   item?: User;
@@ -27,7 +26,7 @@ const StaticPropsDetail = ({ item, errors }: Props) => {
         item ? item.name : 'User Detail'
       } | Next.js + TypeScript Example`}
     >
-      {item && <ListDetail item={item} />}
+      {item && <li>{item.name}</li>}
     </Layout>
   );
 };

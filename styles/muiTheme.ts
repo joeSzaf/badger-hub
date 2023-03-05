@@ -10,6 +10,9 @@ const badgerHubThemeOptions: ThemeOptions = {
       main: '#fbc02d',
     },
   },
+  typography: {
+    fontFamily: 'Open Sans',
+  },
 };
 
 export const badgerHubTheme = createTheme(badgerHubThemeOptions);
