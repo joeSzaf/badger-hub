@@ -7,8 +7,9 @@ interface BigButtonProp {
 const BigButton = ({ copy }: BigButtonProp) => {
   return (
     <BigButtonWrapper
-      variant='contained'
+      disableRipple
       style={{ width: 400, height: 96, borderRadius: 32, fontSize: 36 }}
+      variant='contained'
     >
       {copy}
     </BigButtonWrapper>

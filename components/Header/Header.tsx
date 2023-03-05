@@ -151,6 +151,7 @@ const Header = () => {
               {pages.map((page) => (
                 <Button
                   key={page}
+                  disableRipple
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: 'white', display: 'block' }}
                 >
