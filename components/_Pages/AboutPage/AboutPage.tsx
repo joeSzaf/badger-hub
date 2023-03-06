@@ -1,4 +1,3 @@
-import PageSection from 'components/_Atomic/PageSection/PageSection';
 import PageTitle from 'components/_Atomic/PageTitle/PageTitle';
 import WhoWeAreSection from './WhoWeAreSection/WhoWeAreSection';
 
