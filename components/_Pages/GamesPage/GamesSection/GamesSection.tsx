@@ -1,9 +1,9 @@
 import { GamesSectionWrapper } from './GamesSection.style';
 import PageSection from 'components/_Atomic/PageSection/PageSection';
 import Link from 'next/link';
-import MeMyMechPicture from 'public/images/mmmai_logo_temp.png';
+import MeMyMechPicture from '../../../../public/images/mmmai_logo_temp.png';
 
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 
 const GamesSection = () => {
   return (
