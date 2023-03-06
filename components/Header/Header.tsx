@@ -8,7 +8,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
-import BadgerHubLogo from '../../public/images/badgerHubLogo.png';
+import BadgerHubLogo from 'public/images/BadgerHubLogo.png';
 import Link from 'next/link';
 
 const pages = [
