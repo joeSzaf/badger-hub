@@ -9,13 +9,14 @@ import { ButtonContainer } from './HeroSection.style';
 const HeroSection = () => {
   const items = [
     {
-      name: 'Random Name #1',
-      description: 'Probably the most random thing you have ever seen!',
+      name: 'Pax East',
+      description: 'See us at PAX East!',
       image: PaxImage,
     },
     {
-      name: 'Random Name #2',
-      description: 'Hello World!',
+      name: 'Me, My Mech and I',
+      description:
+        'Stop by out booth to play the latest demo of My, My Mech and I',
       image: BoothImage,
     },
   ];
