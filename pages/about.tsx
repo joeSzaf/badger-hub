@@ -1,14 +1,10 @@
-import Link from 'next/link';
-import Layout from '../components/_Atomic/Layout/Layout';
+import Layout from 'components/_Atomic/Layout/Layout';
+import AboutPage from 'components/_Pages/AboutPage/AboutPage';
 
-const AboutPage = () => (
-  <Layout title='About | Next.js + TypeScript Example'>
-    <h1>About</h1>
-    <p>This is the about page</p>
-    <p>
-      <Link href='/'>Go home</Link>
-    </p>
+const AboutRoute = () => (
+  <Layout title='About | Badger Hub'>
+    <AboutPage />
   </Layout>
 );
 
-export default AboutPage;
+export default AboutRoute;
