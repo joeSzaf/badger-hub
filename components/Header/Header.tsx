@@ -15,7 +15,7 @@ const pages = [
   { name: 'About us', url: '/about' },
   { name: 'Games', url: '/games' },
   { name: 'Blog', url: '/blog' },
-  { name: 'Connect with us', url: '/connect' },
+  { name: 'Connect with us', url: 'https://twitter.com/BadgerHub' },
 ];
 
 const Header = () => {
