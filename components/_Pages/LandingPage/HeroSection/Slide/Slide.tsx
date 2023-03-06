@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from 'next/image';
-import Booth from '../../../public/images/Booth.jpg';
 import SlideWrapper from './Slide.style';
 
 interface SlideProps {

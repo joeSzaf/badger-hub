@@ -1,5 +1,5 @@
 import { Button } from '@mui/material';
-import PageSection from '../_Atomic/PageSection/PageSection';
+import PageSection from '../../../_Atomic/PageSection/PageSection';
 import { MailingListWrapper } from './MailingListSection.style';
 
 const MailingListSection = () => {

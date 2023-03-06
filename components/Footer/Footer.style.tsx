@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { sectionContent } from '../../styles/shared';
+import { sectionContent } from 'styles/shared';
 
 export const FooterWrapper = styled.footer`
   ${sectionContent}

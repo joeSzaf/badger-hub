@@ -1,12 +1,11 @@
 import styled from '@emotion/styled';
-import { sectionContent } from '../../styles/shared';
+import { sectionContent } from '../../../../styles/shared';
 
-export const FollowUsSectionWrapper = styled.section`
+export const MailingListWrapper = styled.section`
   ${sectionContent}
   align-items: center;
-  flex-grow: 100;
   justify-content: space-between;
-  padding: 16px;
+  padding: 64px 16px;
 
   .MuiButtonBase-root {
     border-radius: 16px;
@@ -17,6 +16,7 @@ export const FollowUsSectionWrapper = styled.section`
 
     :hover {
       background-color: #474747;
+      border: 3px solid white;
     }
   }
 
@@ -33,7 +33,6 @@ export const FollowUsSectionWrapper = styled.section`
   }
 
   h2 {
-    margin-bottom: 0;
     width: 450px;
   }
 `;

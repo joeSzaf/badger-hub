@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Typography } from '@mui/material';
 import HeaderWrapper, { DropdownLink, NavButton } from './Header.style';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -7,10 +6,9 @@ import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
-import BadgerHubLogo from '../../public/images/badgerHubLogo.png';
+import BadgerHubLogo from 'public/images/badgerHubLogo.png';
 import Link from 'next/link';
 
 const pages = [

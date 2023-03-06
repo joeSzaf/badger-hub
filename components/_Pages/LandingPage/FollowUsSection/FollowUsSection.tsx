@@ -1,11 +1,11 @@
-import SocialIcon from '../_Atomic/SocialIcon/SocialIcon';
-import { SocialGroup } from '../_Atomic/SocialIcon/SocialIcon.style';
+import SocialIcon from 'components/_Atomic/SocialIcon/SocialIcon';
+import { SocialGroup } from 'components/_Atomic/SocialIcon/SocialIcon.style';
 import { FollowUsSectionWrapper } from './FollowUsSection.style';
+import DiscordIcon from 'public/icons/DiscordIcon.svg';
+import PageSection from 'components/_Atomic/PageSection/PageSection';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import DiscordIcon from '../../public/icons/DiscordIcon.svg';
-import PageSection from '../_Atomic/PageSection/PageSection';
 
 const FollowUsSection = () => {
   return (

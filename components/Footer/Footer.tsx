@@ -1,11 +1,11 @@
 import FooterWrapper, { FooterSection, FooterSections } from './Footer.style';
-import SocialIcon from '../_Atomic/SocialIcon/SocialIcon';
+import SocialIcon from 'components/_Atomic/SocialIcon/SocialIcon';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import DiscordIcon from '../../public/icons/DiscordIcon.svg';
-import { SocialGroup } from '../_Atomic/SocialIcon/SocialIcon.style';
-import PageSection from '../_Atomic/PageSection/PageSection';
+import DiscordIcon from 'public/icons/DiscordIcon.svg';
+import { SocialGroup } from 'components/_Atomic/SocialIcon/SocialIcon.style';
+import PageSection from 'components/_Atomic/PageSection/PageSection';
 
 const Footer = () => {
   return (
