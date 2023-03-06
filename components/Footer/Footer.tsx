@@ -5,11 +5,12 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import DiscordIcon from '../../public/icons/DiscordIcon.svg';
 import { SocialGroup } from '../_Atomic/SocialIcon/SocialIcon.style';
+import PageSection from '../_Atomic/PageSection/PageSection';
 
 const Footer = () => {
   return (
-    <FooterWrapper>
-      <div className='sectionContent'>
+    <PageSection backgroundColor='5c5c5c'>
+      <FooterWrapper>
         <FooterSections>
           <FooterSection>
             <h1>Contact</h1>
@@ -33,8 +34,8 @@ const Footer = () => {
           </FooterSection>
         </FooterSections>
         <p className='copywright'>© Badger Hub 2023</p>
-      </div>
-    </FooterWrapper>
+      </FooterWrapper>
+    </PageSection>
   );
 };
 

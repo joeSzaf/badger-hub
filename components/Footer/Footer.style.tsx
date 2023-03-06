@@ -1,15 +1,13 @@
 import styled from '@emotion/styled';
+import { sectionContent } from '../../styles/shared';
 
 export const FooterWrapper = styled.footer`
-  background-color: #5c5c5c;
+  ${sectionContent}
   display: flex;
+  flex-direction: column;
+  flex-grow: 100;
   justify-content: center;
-
-  .sectionContent {
-    max-width: 1200px;
-    padding: 16px;
-    flex-grow: 100;
-  }
+  padding: 16px;
 
   .copywright {
     color: white;
@@ -25,8 +23,8 @@ export const FooterSections = styled.div`
 
   @media screen and (max-width: 900px) {
     flex-direction: column-reverse;
-    justify-content: flex-start;
     gap: 32px;
+    justify-content: flex-start;
 
     h1,
     h2 {
