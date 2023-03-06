@@ -1,11 +1,5 @@
-import SocialIcon from 'components/_Atomic/SocialIcon/SocialIcon';
-import { SocialGroup } from 'components/_Atomic/SocialIcon/SocialIcon.style';
 import { AboutBlock, WhoWeAreSectionWrapper } from './WhoWeAreSection.style';
-import DiscordIcon from 'public/icons/DiscordIcon.svg';
 import PageSection from 'components/_Atomic/PageSection/PageSection';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import InstagramIcon from '@mui/icons-material/Instagram';
 
 const WhoWeAreSection = () => {
   return (
