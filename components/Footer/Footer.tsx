@@ -6,6 +6,14 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import DiscordIcon from 'public/icons/DiscordIcon.svg';
 import { SocialGroup } from 'components/_Atomic/SocialIcon/SocialIcon.style';
 import PageSection from 'components/_Atomic/PageSection/PageSection';
+import Link from 'next/link';
+
+const directoryData = [
+  { displayName: 'Home', url: '/' },
+  { displayName: 'About us', url: '/about' },
+  { displayName: 'Games', url: '/games' },
+  { displayName: 'Blog', url: '/blog' },
+];
 
 const Footer = () => {
   return (
@@ -27,10 +35,13 @@ const Footer = () => {
             </SocialGroup>
           </FooterSection>
           <FooterSection>
-            <h2>Home</h2>
-            <h2>About us</h2>
-            <h2>Games</h2>
-            <h2>Blog</h2>
+            {directoryData.map((directoryItem) => {
+              return (
+                <Link href={directoryItem.url}>
+                  <h2>{directoryItem.displayName}</h2>
+                </Link>
+              );
+            })}
           </FooterSection>
         </FooterSections>
         <p className='copywright'>© Badger Hub 2023</p>

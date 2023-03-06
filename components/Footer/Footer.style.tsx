@@ -38,6 +38,11 @@ export const FooterSection = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  a {
+    color: white;
+    text-decoration-color: white;
+  }
 `;
 
 export default FooterWrapper;

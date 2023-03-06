@@ -35,8 +35,11 @@ const HeroSection = () => {
         ))}
       </Carousel>
       <ButtonContainer>
-        <BigButton copy='Games'></BigButton>
-        <BigButton copy='PAX East'></BigButton>
+        <BigButton copy='Games' href='/games'></BigButton>
+        <BigButton
+          copy='PAX East'
+          href='https://east.paxsite.com/en-us/expo-hall/exhibitor-listing.html?gtID=561181&exhibitor-name=Badger-Hub'
+        ></BigButton>
       </ButtonContainer>
     </div>
   );
