@@ -8,6 +8,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
+import BadgerHubLogo from '../../public/images/badgerHubLogo.png';
 import Link from 'next/link';
 
 const pages = [
@@ -42,7 +43,7 @@ const Header = () => {
               <Image
                 alt='Badger Hub logo'
                 className='badgerLogo'
-                src={'/images/badgerHubLogo.png'}
+                src={BadgerHubLogo}
                 width={60}
                 height={72}
               />
@@ -71,7 +72,7 @@ const Header = () => {
                 <Image
                   alt='Badger Hub logo'
                   className='badgerLogo'
-                  src={'/images/badgerHubLogo.png'}
+                  src={BadgerHubLogo}
                   width={60}
                   height={72}
                 />
