@@ -9,4 +9,11 @@ export const ButtonContainer = styled.div`
     flex-direction: column;
     gap: 64px;
   }
+
+  @media screen and (max-width: 480px) {
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+    margin: 0 16px;
+  }
 `;

@@ -10,7 +10,6 @@ const BigButton = ({ copy, href }: BigButtonProp) => {
   return (
     <BigButtonWrapper
       disableRipple
-      style={{ width: 400, height: 96, borderRadius: 32, fontSize: 36 }}
       variant='contained'
       LinkComponent={Link}
       href={href}
