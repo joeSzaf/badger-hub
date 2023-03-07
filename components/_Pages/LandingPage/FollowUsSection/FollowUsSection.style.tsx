@@ -8,6 +8,11 @@ export const FollowUsSectionWrapper = styled.section`
   justify-content: space-between;
   padding: 16px;
 
+  h2 {
+    margin-bottom: 0;
+    max-width: 450px;
+  }
+
   .MuiButtonBase-root {
     border-radius: 16px;
     border: 3px solid white;
@@ -25,15 +30,12 @@ export const FollowUsSectionWrapper = styled.section`
     gap: 32px;
     justify-content: center;
     text-align: center;
+    width: 100%;
+    padding: 16px 0;
 
     h1,
     h2 {
       width: 100%;
     }
-  }
-
-  h2 {
-    margin-bottom: 0;
-    width: 450px;
   }
 `;
