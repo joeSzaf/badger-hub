@@ -23,7 +23,7 @@ const Footer = () => {
           <FooterSection>
             <h1>Contact</h1>
             <p>For business inquiries:</p>
-            <p>BadgerHubStudios@gmail.com</p>
+            <p>BadgerHubStudio@gmail.com</p>
           </FooterSection>
           <FooterSection>
             <h1>Socials</h1>

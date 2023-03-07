@@ -15,6 +15,10 @@ export const FooterWrapper = styled.footer`
     margin-top: 32px;
     width: 100%;
   }
+
+  @media screen and (max-width: 480px) {
+    padding: 8px 16px;
+  }
 `;
 
 export const FooterSections = styled.div`
@@ -29,6 +33,18 @@ export const FooterSections = styled.div`
     h1,
     h2 {
       margin-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    gap: 24px;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 18px;
     }
   }
 `;
