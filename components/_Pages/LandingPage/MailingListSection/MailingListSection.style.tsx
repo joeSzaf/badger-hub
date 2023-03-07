@@ -7,12 +7,15 @@ export const MailingListWrapper = styled.section`
   justify-content: space-between;
   padding: 64px 16px;
 
+  h2 {
+    max-width: 450px;
+  }
+
   .MuiButtonBase-root {
     border-radius: 16px;
     border: 3px solid white;
     color: white;
     font-size: 24px;
-    height: auto;
 
     :hover {
       background-color: #474747;
@@ -22,7 +25,7 @@ export const MailingListWrapper = styled.section`
 
   @media screen and (max-width: 950px) {
     flex-direction: column;
-    gap: 32px;
+    gap: 16px;
     justify-content: center;
     text-align: center;
 
@@ -32,7 +35,15 @@ export const MailingListWrapper = styled.section`
     }
   }
 
-  h2 {
-    width: 450px;
+  @media screen and (max-width: 480px) {
+    padding: 16px 16px;
+
+    .MuiButtonBase-root {
+      font-size: 16px;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
   }
 `;
